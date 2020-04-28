@@ -1,9 +1,21 @@
-let topReg = require("../lib");
+let dff = require("../lib");
 
-topReg.registerTopic({topic: "corona lockdown"}, function(err, success){
-   if(err)
-      console.log("err--->", err);
-   
-   else
-      console.log("sucess--->", success);
-})
+// dff.registerTopics(["corona", "lockdown", "ppht", "tstTopic"], (err, success) => {
+//    console.log(err,  success)
+// })
+
+// dff.topicAttribute(["features"], (err, success) => {
+//    console.log(err,  success)
+// })
+
+// dff.trustedLinks(["https://www.google.com/search?"], (err, success) => {
+//    console.log(err,  success)
+// })
+
+// dff.getAttributes((err, success) => {
+//    console.log(err,  success)
+// })
+
+// dff.deleteAttributes("features", (err, success) => {
+//    console.log(err,  success)
+// })
