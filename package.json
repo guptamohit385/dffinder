@@ -18,7 +18,7 @@
   "dependencies": {
     "datacompare": "^1.2.0",
     "html-to-text": "^5.1.1",
-    "local-json-cache": "^1.0.4",
+    "local-json-cache": "^1.0.5",
     "unhell": "^1.0.3"
   }
 }
