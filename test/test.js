@@ -1,21 +1,27 @@
-let dff = require("../lib");
+let {
+    registerTopics,
+    topicAttribute,
+    trustedLinks,
+    getAttributes,
+    getTopics,
+    getTrustedLinks,
+    deleteAttributes,
+    deleteTopics,
+    deleteTrustedLinks
+} = require("../lib");
 
-// dff.registerTopics(["corona", "lockdown", "ppht", "tstTopic"], (err, success) => {
+// registerTopics(["corona", "lockdown", "ppht", "tstTopic"], (err, success) => {
 //    console.log(err,  success)
 // })
 
-// dff.topicAttribute(["features"], (err, success) => {
+// topicAttribute(["features"], (err, success) => {
 //    console.log(err,  success)
 // })
 
-// dff.trustedLinks(["https://www.google.com/search?"], (err, success) => {
+// trustedLinks("https://www.google.com/search?", (err, success) => {
 //    console.log(err,  success)
 // })
 
-// dff.getAttributes((err, success) => {
-//    console.log(err,  success)
-// })
-
-// dff.deleteAttributes("features", (err, success) => {
-//    console.log(err,  success)
-// })
+getAttributes((err, success) => {
+   console.log(err,  success)
+})

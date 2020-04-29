@@ -8,12 +8,16 @@
   },
   "keywords": [
     "fact finder",
-    "data to fact"
+    "data to fact",
+    "fact create",
+    "fact creation",
+    "data mine"
   ],
   "author": "guptamohit385",
   "license": "ISC",
   "dependencies": {
     "datacompare": "^1.2.0",
+    "html-to-text": "^5.1.1",
     "local-json-cache": "^1.0.4",
     "unhell": "^1.0.3"
   }
