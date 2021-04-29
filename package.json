@@ -13,7 +13,7 @@
     "fact creation",
     "data mine"
   ],
-  "author": "guptamohit385",
+  "author": "kvertex",
   "license": "ISC",
   "dependencies": {
     "datacompare": "^1.2.0",
